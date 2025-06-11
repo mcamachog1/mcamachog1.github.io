@@ -1,0 +1,63 @@
+    
+
+
+        /* Estilos generales para el BODY */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Fuente más moderna y legible */
+            line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+            color: #333; /* Color de texto principal (gris oscuro) */
+            background-color: #f0f2f5; /* Un fondo gris muy suave para el blog */
+            margin: 0; /* Asegura que no haya margen por defecto en el body */
+            padding: 0; /* Asegura que no haya padding por defecto en el body */
+        }
+
+        section {
+            padding: 60px 30px; /* Espacio superior e inferior para las secciones */
+            background-color: #f8f9fa; /* Un color de fondo suave para diferenciar la sección */
+        }
+
+        /* Estilos opcionales para la sección de portafolio (como en el ejemplo anterior) */
+        .portfolio-section {
+            padding: 80px 40px;
+            background-color: #f8f9fa; /* Un color de fondo suave para diferenciar la sección */
+        }
+        .portfolio-section h2 {
+            margin-bottom: 25px;
+            font-weight: 700;
+            color: #0d6efd; /* Color primario de Bootstrap para el título */
+        }
+        .portfolio-section p {
+            line-height: 1.8;
+            color: #495057;
+        }
+
+        /* Estilos para el card del formulario de contacto, si deseas un margen superior después de otras secciones */
+        .card.shadow-sm {
+            margin-top: 50px; /* Ejemplo de margen superior para el formulario */
+        }
+
+        /* Puedes añadir más estilos generales aquí, por ejemplo para enlaces */
+        a {
+            color: #0d6efd; /* Color de enlace primario de Bootstrap */
+            text-decoration: none; /* Quita el subrayado por defecto */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subraya los enlaces al pasar el ratón */
+        }
+
+        /* Estilos opcionales para esta sección */
+        #blog {
+            padding: 80px 0; /* Espacio superior e inferior */
+            background-color: #f8f9fa; /* Un color de fondo suave para diferenciar la sección */
+        }
+        #blog h2 {
+            margin-bottom: 25px; /* Espacio debajo del título */
+            font-weight: 700; /* Texto en negrita para el título */
+            color: #0d6efd; /* Color primario de Bootstrap para el título */
+        }
+        #blog p {
+            line-height: 1.8; /* Mayor espacio entre líneas para mejor lectura */
+            color: #495057; /* Un color de texto un poco más oscuro que el gris */
+        }
+    
